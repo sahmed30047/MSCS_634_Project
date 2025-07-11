@@ -3,6 +3,8 @@ Residency project made by:
 
 Adrian-Nichita Zloteanu
 Shafan Nazeer Ahmed
+
+
 Dataset Summary
 The Titanic dataset contains information about passengers aboard the Titanic, including demographic details (age, gender, class), ticket and fare information, and survival status.
 
