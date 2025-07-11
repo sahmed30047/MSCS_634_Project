@@ -1,7 +1,8 @@
 Titanic Dataset Analysis
 Residency project made by:
 
-Adrian-Nichita Zloteanu, 
+Adrian-Nichita Zloteanu
+
 Shafan Nazeer Ahmed
 
 
