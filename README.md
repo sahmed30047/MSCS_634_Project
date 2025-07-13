@@ -1,12 +1,13 @@
-Titanic Dataset Analysis
+**Titanic Dataset Analysis**
 The full report can be found at Report.pdf
 
 Residency project made by:
 
-Adrian-Nichita Zloteanu,
-Shafan Nazeer Ahmed
+_Adrian-Nichita Zloteanu,
+Shafan Nazeer Ahmed_
 
-Deliverable 1
+**Deliverable 1**
+
 Dataset Summary
 The Titanic dataset contains information about passengers aboard the Titanic, including demographic details (age, gender, class), ticket and fare information, and survival status.
 
@@ -50,7 +51,10 @@ Challenges
 Missing Data: Many entries in 'Cabin' were missing, so the column was dropped. Missing 'Age' and 'Embarked' values were filled in using median and mode respectively.
 Skewed Distributions: 'Fare' is highly skewed, which may affect modeling. We might do a log transformation in next steps.
 Outliers: Outliers in 'Fare' and 'Age' are consistent with real-world expectations and will be retained further.
-Deliverable 2: Regression Modelling
+
+**Deliverable 2**
+
+Regression Modelling
 Modelling process
 We engineered new features (Title and FamilySize) to give the models more context. For regression, I focused on predicting Fare using Linear and Ridge Regression, with a log transformation to handle the skew in Fare values.
 
@@ -63,7 +67,9 @@ Social status (Title) and group size (FamilySize) added useful info for predicti
 Ridge regression was not needed: Linear regression worked well enough
 Overall, the modeling process was smooth, and the results make sense given the data. The engineered features and log transformation were key to getting more reliable predictions.
 
-Deliverable 3: Classification, Clustering, and Pattern Mining
+**Deliverable 3**
+
+Classification, Clustering, and Pattern Mining
 Findings
 This was the most interesting part of the assignment. We tried a few different machine learning techniques to see what patterns would emerge of the Titanic data:
 
